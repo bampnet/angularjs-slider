@@ -1,7 +1,7 @@
 {
   "name": "angularjs-slider",
-  "version": "5.4.3",
-  "homepage": "https://github.com/angular-slider/angularjs-slider",
+  "version": "5.4.4",
+  "homepage": "https://github.com/bampnet/angularjs-slider",
   "authors": [
     "Rafal Zajac <rzajac@gmail.com>",
     "Valentin Hervieu <valentin@hervieu.me>",
