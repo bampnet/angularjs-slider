@@ -1,29 +1,6 @@
-/*! angularjs-slider - v5.4.3 - 
- (c) Rafal Zajac <rzajac@gmail.com>, Valentin Hervieu <valentin@hervieu.me>, Jussi Saarivirta <jusasi@gmail.com>, Angelin Sirbu <angelin.sirbu@gmail.com> - 
- https://github.com/angular-slider/angularjs-slider - 
- 2016-08-07 */
-/*jslint unparam: true */
-/*global angular: false, console: false, define, module */
-(function(root, factory) {
+(function (angular) {
   'use strict';
-  /* istanbul ignore next */
-  if (typeof define === 'function' && define.amd) {
-    // AMD. Register as an anonymous module.
-    define(['angular'], factory);
-  } else if (typeof module === 'object' && module.exports) {
-    // Node. Does not work with strict CommonJS, but
-    // only CommonJS-like environments that support module.exports,
-    // like Node.
-    // to support bundler like browserify
-    module.exports = factory(require('angular'));
-  } else {
-    // Browser globals (root is window)
-    factory(root.angular);
-  }
-
-}(this, function(angular) {
-  'use strict';
-  var module = angular.module('rzModule', [])
+  angular.module('rzModule', [])
 
   .factory('RzSliderOptions', function() {
     var defaultOptions = {
@@ -2189,4 +2166,4 @@
 }]);
 
   return module.name
-}));
+})(angular);
