@@ -1,7 +1,7 @@
 {
-  "name": "angularjs-slider",
+  "name": "browserify-slider",
   "version": "5.4.4",
-  "homepage": "https://github.com/bampnet/angularjs-slider",
+  "homepage": "https://github.com/bampnet/browserify-slider",
   "authors": [
     "Rafal Zajac <rzajac@gmail.com>",
     "Valentin Hervieu <valentin@hervieu.me>",

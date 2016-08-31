@@ -1,11 +1,11 @@
 {
-  "name": "angularjs-slider",
+  "name": "browserify-slider",
   "version": "5.4.4",
   "description": "AngularJS slider directive with no external dependencies. Mobile friendly!.",
   "main": "dist/rzslider.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bampnet/angularjs-slider"
+    "url": "https://github.com/bampnet/browserify-slider"
   },
   "keywords": [
     "angular",

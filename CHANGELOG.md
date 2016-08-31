@@ -1,3 +1,7 @@
+# 5.4.4 (2016-08-31)
+## Fix
+- Fix browserify load.
+
 # 5.4.3 (2016-08-07)
 ## Fix
 - Fix minLimit/maxLimit bugged for draggableRange (#384).
