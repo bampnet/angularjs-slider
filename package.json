@@ -1,6 +1,6 @@
 {
   "name": "browserify-slider",
-  "version": "5.4.4",
+  "version": "5.4.5",
   "description": "AngularJS slider directive with no external dependencies. Mobile friendly!.",
   "main": "dist/rzslider.js",
   "repository": {

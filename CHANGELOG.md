@@ -1,3 +1,7 @@
+# 5.4.5 (2016-09-08)
+## Fix
+- Fix angular strict minification.
+
 # 5.4.4 (2016-08-31)
 ## Fix
 - Fix browserify load.

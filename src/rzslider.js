@@ -73,7 +73,7 @@
         return factory;
       })
 
-      .factory('rzThrottle', function($timeout) {
+      .factory('rzThrottle', ['$timeout', function($timeout) {
         /**
          * rzThrottle
          *
@@ -117,9 +117,9 @@
             return result;
           };
         }
-      })
+      }])
 
-      .factory('RzSlider', function($timeout, $document, $window, $compile, RzSliderOptions, rzThrottle) {
+      .factory('RzSlider', ['$timeout', '$document', '$window', '$compile', 'RzSliderOptions', 'rzThrottle', function($timeout, $document, $window, $compile, RzSliderOptions, rzThrottle) {
         'use strict';
 
         /**
@@ -2090,9 +2090,9 @@
         };
 
         return Slider;
-      })
+      }])
 
-      .directive('rzslider', function(RzSlider) {
+      .directive('rzslider', ['RzSlider',function(RzSlider) {
         'use strict';
 
         return {
@@ -2121,7 +2121,7 @@
             scope.slider = new RzSlider(scope, elem); //attach on scope so we can test it
           }
         };
-      });
+      }]);
 
   // IDE assist
 
